@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: myDemoProject_Test1.searchPageTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 1.443 s <<< FAILURE! - in myDemoProject_Test1.searchPageTest
+setup(myDemoProject_Test1.searchPageTest)  Time elapsed: 1.278 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/HasAuthentication
+	at myDemoProject_Test1.searchPageTest.setup(searchPageTest.java:24)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.HasAuthentication
+	at myDemoProject_Test1.searchPageTest.setup(searchPageTest.java:24)
+
